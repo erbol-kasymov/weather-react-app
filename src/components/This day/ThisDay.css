@@ -1,0 +1,49 @@
+.mainThD {
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+}
+.topPart {
+  display: flex;
+  grid-column-gap: 67px;
+  align-items: center;
+  margin-bottom: 31px;
+}
+.dayTemp {
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 117px;
+  color: #4793ff;
+  margin: 0;
+}
+.today {
+  color: #000;
+  font-size: 40px;
+  font-family: Montserrat;
+  margin-top: 0;
+}
+.bottomPart {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.time {
+  color: #939cb0;
+  font-size: 25px;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+.city {
+  color: #939cb0;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.weatherStateIco{
+  width: 120px;
+  height: 120px;
+}

@@ -1,0 +1,60 @@
+import cloudy from "../../assets/img/cloudyIco.svg";
+
+export const WeekData = [
+  {
+    day: "Сегодня",
+    date: "21.06",
+    img: cloudy,
+    tempDay: "+"+18+"°",
+    tempNight: "+"+18+"°",
+    weatherDes: "Облачно",
+  },
+  {
+    day: "Сегодня",
+    date: "22.06",
+    img: cloudy,
+    tempDay: "+"+18+"°",
+    tempNight: "+"+18+"°",
+    weatherDes: "Облачно",
+  },
+  {
+    day: "Сегодня",
+    date: "23.06",
+    img: cloudy,
+    tempDay: "+"+18+"°",
+    tempNight: "+"+18+"°",
+    weatherDes: "Облачно",
+  },
+  {
+    day: "Сегодня",
+    date: "21.06",
+    img: cloudy,
+    tempDay: "+"+18+"°",
+    tempNight: "+"+18+"°",
+    weatherDes: "Облачно",
+  },
+  {
+    day: "Сегодня",
+    date: "21.06",
+    img: cloudy,
+    tempDay: "+"+18+"°",
+    tempNight: "+"+18+"°",
+    weatherDes: "Облачно",
+  },
+  {
+    day: "Сегодня",
+    date: "21.06",
+    img: cloudy,
+    tempDay: "+"+18+"°",
+    tempNight: "+"+18+"°",
+    weatherDes: "Облачно",
+  },
+  {
+    day: "Сегодня",
+    date: "21.06",
+    img: cloudy,
+    tempDay: "+"+18+"°",
+    tempNight: "+"+18+"°",
+    weatherDes: "Облачно",
+  },
+];

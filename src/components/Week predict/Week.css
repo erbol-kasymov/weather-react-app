@@ -1,0 +1,66 @@
+.weekCards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 0px 0px 20px 20px;
+  background: #fff;
+  /* Shadow block cards */
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  grid-column-gap: 20px;
+}
+.weekCard {
+  display: flex;
+  width: 149px;
+  padding-left: 11px;
+  padding-top: 11px;
+  padding-bottom: 13px;
+  flex-direction: column;
+  border-radius: 10px;
+  background: rgba(71, 147, 255, 0.2);
+  cursor: pointer;
+}
+.weekCard:hover,
+.weekCard:active,
+.weekCard:focus {
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+}
+.dayW {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+.dateW {
+  color: #939cb0;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.imgW {
+  margin-top: 0;
+  margin-bottom: 13px;
+  width: 48px;
+  height: 48px;
+}
+.tempDayW {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tempNightW {
+  margin-top: 0;
+  color: #939cb0;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.weatherDesW {
+  color: #939cb0;
+  margin-top: 0;
+  font-size: 13px;
+}

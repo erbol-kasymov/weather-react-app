@@ -1,0 +1,28 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.buttons button {
+  color: #000;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  border: none;
+  cursor: pointer;
+}
+.buttons button:hover,
+.buttons button:active,
+.buttons button:focus{
+  color: #fff;
+  background: rgba(71, 147, 255, 1);
+}
+.popUopButtons{
+  display: flex;
+  grid-column-gap: 15px;
+}
