@@ -41,7 +41,7 @@ export const ThisDay = () => {
   useEffect(() => {
     axios.get(src).then((data) => {
       setInfo(data.data);
-      setWeatherState(data.data.weather.map((weather) => <>{weather.main}</>));
+      setWeatherState(data.data.weather[0].main);
 
     });
   }, []);
@@ -62,7 +62,7 @@ export const ThisDay = () => {
     ws = rain;
   }
 
-  // console.log(weatherState)
+  // console.log( info.weather[0].main)
 
   ///////////////////////////////////////
   return (
