@@ -2,7 +2,7 @@ import React from "react";
 import { WeekData } from "./WeekData";
 import "./Week.css";
 
-export const WeekPredict = (el) => {
+export const WeekPredict = () => {
   return (
     <div className="weekCards">
       {WeekData.map((el, id) => {
