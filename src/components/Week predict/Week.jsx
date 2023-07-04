@@ -14,11 +14,11 @@ export const WeekPredict = () => {
   const src =
     "https://api.openweathermap.org/data/2.5/forecast/daily?q=karakol&cnt=7&appid=66438398e5bd0e58da592a51b7a2dd7b";
 
-    useEffect(() => {
-      axios.get(src).then((data) => {
-        setWeekInfo(data.data);
-      });
-    }, []);
+    // useEffect(() => {
+    //   axios.get(src).then((data) => {
+    //     setWeekInfo(data.data);
+    //   });
+    // }, []);
 
   const WeekData = [
     {

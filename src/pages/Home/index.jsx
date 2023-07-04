@@ -7,8 +7,11 @@ import Select from "react-select";
 import "./Home.css";
 import { optionsCity } from "../../data";
 import { Buttons } from "../../components/Buttons/Buttons";
+import { useState } from "react";
+import { useEffect } from "react";
 
 export const Home = () => {
+ 
   return (
     <div className="main">
       <header>
@@ -16,7 +19,12 @@ export const Home = () => {
           <img src={logo} alt="logo" />
           <p>WEATHER</p>
         </div>
-        <Select options={optionsCity} className="selectCity" />
+        <Select
+          id="sel"
+          options={optionsCity}
+          placeholder="city"
+          className="selectCity"
+        />
       </header>
       <section className="topPart">
         <ThisDay />
