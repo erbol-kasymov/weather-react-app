@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 // import { WeekData } from "./WeekData";
 import cloudy from "../../assets/img/cloudyIco.svg";
 import sun from "../../assets/img/SunThD.svg";
@@ -12,18 +12,23 @@ export const WeekPredict = () => {
   const [weekInfo, setWeekInfo] = useState([]);
 
   const src =
-    "https://api.openweathermap.org/data/2.5/forecast/daily?q=karakol&cnt=7&appid=66438398e5bd0e58da592a51b7a2dd7b";
+    "http://api.openweathermap.org/data/2.5/weather?q=karakol&cnt=7&APPID=a0038ec1ae332d55df197d3ae1cdc523";
 
-    // useEffect(() => {
-    //   axios.get(src).then((data) => {
-    //     setWeekInfo(data.data);
-    //   });
-    // }, []);
+  useEffect(() => {
+    axios.get(src).then((data) => {
+      let then = new Date()
+      let now = new Date(data.data.dt)
+      // setWeekInfo(new Date(Math.floor(then - now)));
+      // setWeekInfo(new Date(then-now))
+      console.log(new Date(Math.floor(then - now)))
+    });
+    // console.log(weekInfo)  Math.floor((now - date) / 1000)
+  }, []);
 
   const WeekData = [
     {
       day: "Сегодня",
-      date: "21.06",
+      date: weekInfo,
       img: cloudy,
       tempDay: "+" + 19 + "°",
       tempNight: "+" + 19 + "°",
