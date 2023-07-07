@@ -20,10 +20,12 @@ export const WeekPredict = () => {
 
   // api
   const src =
-    "http://api.openweathermap.org/data/2.5/weather?q=karakol&cnt=7&APPID=a0038ec1ae332d55df197d3ae1cdc523";
+    "http://api.openweathermap.org/data/2.5/forecast/daily?q=karakol&cnt=7&APPID=a0038ec1ae332d55df197d3ae1cdc523";
 
   useEffect(() => {
-    axios.get(src).then((data) => {});
+    axios.get(src).then((data) => {
+      // console.log(data.data)
+    });
   }, []);
 
   // Week date
