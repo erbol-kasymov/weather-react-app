@@ -11,33 +11,3 @@ body {
   font-family: "Montserrat";
   src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
 }
-.main {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
-}
-.main header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  align-items: center;
-}
-.logoPart {
-  display: flex;
-  grid-column-gap: 20px;
-}
-.logoPart p {
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #4793ff;
-}
-.selectCity {
-  width: 200px;
-  background: rgba(71, 147, 255, 0.2);
-  border-radius: 10px;
-}
-.topPart {
-  display: flex;
-}

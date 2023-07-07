@@ -15,8 +15,6 @@ export const ThisDay = () => {
   const [time, setTime] = useState(new Date());
   let [weatherState, setWeatherState] = useState("");
 
-  //WeatherState
-
   // Time
   useEffect(() => {
     const interval = setInterval(() => {
@@ -42,21 +40,19 @@ export const ThisDay = () => {
     axios.get(src).then((data) => {
       setInfo(data.data);
       setWeatherState(data.data.weather[0].main);
-
     });
   }, []);
 
-
   let ws;
-  if ((weatherState === "Rain")) {
+  if (weatherState === "Rain") {
     ws = rain;
-  } else if ((weatherState === "Clouds")) {
+  } else if (weatherState === "Clouds") {
     ws = cloudy;
-  } else if ((weatherState === "Drizzle")) {
+  } else if (weatherState === "Drizzle") {
     ws = smallRain;
-  } else if ((weatherState === "Thunderstorm")) {
+  } else if (weatherState === "Thunderstorm") {
     ws = storm;
-  } else if ((weatherState === "Clear")) {
+  } else if (weatherState === "Clear") {
     ws = sun;
   } else {
     ws = rain;
