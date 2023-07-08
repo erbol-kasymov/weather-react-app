@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Home } from "./pages/Home";
+import { Weather } from "./components/This day/ThisDay";
 
 export const App = () => {
   return (
     <div className="App">
-      <Home />
+      <Weather />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 .mainThDI {
   display: flex;
-  background: url("../.../../../assets/img/cloudThdI.svg")no-repeat top right;
+  background: url("../../../assets/img/cloudThdI.svg")no-repeat top right;
   border-radius: 20px;
   box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
   padding-top: 42px;
