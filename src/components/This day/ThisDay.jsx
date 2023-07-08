@@ -104,7 +104,7 @@ export const Weather = () => {
           <p>WEATHER</p>
         </div>
         <select
-          value={sel}
+          // value={sel}
           onChange={(e) => setSel(e.target.value)}
           className="selectCity"
         >

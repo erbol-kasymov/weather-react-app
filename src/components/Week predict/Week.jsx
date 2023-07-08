@@ -211,6 +211,7 @@ export const WeekPredict = () => {
           </div>
         );
       })}
+      
     </div>
   );
 };
